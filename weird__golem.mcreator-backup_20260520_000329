@@ -1,0 +1,175 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pickax",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickax",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weird__golem/items/pickax.json",
+          "src/main/java/net/mcreator/weirdgolem/item/PickaxItem.java",
+          "src/main/resources/assets/weird__golem/models/item/pickax.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSword",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_trades_objects",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IRON",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Golempickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golempickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weird__golem/recipe/golempickaxe.json",
+          "src/main/resources/data/weird__golem/advancement/recipes/golempickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Getthatgolempickaxe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getthatgolempickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weird__golem/advancement/getthatgolempickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GolemGOGOGOGO",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_gogogogo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/weird__golem/models/block/golem_gogogogo.json",
+          "src/main/java/net/mcreator/weirdgolem/item/GolemGOGOGOGOItem.java",
+          "src/main/resources/assets/weird__golem/items/golem_gogogogo_bucket.json",
+          "src/main/resources/assets/weird__golem/blockstates/golem_gogogogo.json",
+          "src/main/java/net/mcreator/weirdgolem/fluid/GolemGOGOGOGOFluid.java",
+          "src/main/java/net/mcreator/weirdgolem/fluid/types/GolemGOGOGOGOFluidType.java",
+          "src/main/java/net/mcreator/weirdgolem/client/fluid/GolemGOGOGOGOFluidExtension.java",
+          "src/main/java/net/mcreator/weirdgolem/block/GolemGOGOGOGOBlock.java",
+          "src/main/resources/assets/weird__golem/models/item/golem_gogogogo_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/weird__golem/neoforge/biome_modifier/water_golem_biome_modifier.json",
+          "src/main/java/net/mcreator/weirdgolem/client/renderer/WaterGolemRenderer.java",
+          "src/main/resources/assets/weird__golem/models/item/water_golem_spawn_egg.json",
+          "src/main/resources/assets/weird__golem/items/water_golem_spawn_egg.json",
+          "src/main/java/net/mcreator/weirdgolem/entity/WaterGolemEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Golem",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Pickax"
+    ],
+    "ITEMS:weird__golem:pickax_repair_items": [
+      "~Items.IRON_INGOT"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:GolemGOGOGOGO"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.weird__golem.pickax": "Golem Pickaxe",
+      "entity.villager.weird__golem.iron": "THE IRONER",
+      "advancements.getthatgolempickaxe.title": "get that strong pickaxe !",
+      "advancements.getthatgolempickaxe.descr": "get the golem pickaxe by crafting or trading !",
+      "fluid_type.weird__golem.golem_gogogogo": "Golem GOGOGOGO",
+      "block.weird__golem.golem_gogogogo": "Golem GOGOGOGO",
+      "item.weird__golem.golem_gogogogo_bucket": "Golem GOGOGOGO Bucket",
+      "fluid.weird__golem.golem_gogogogo": "Golem GOGOGOGO",
+      "item.weird__golem.water_golem_spawn_egg": "Water Golem Spawn Egg",
+      "entity.weird__golem.water_golem": "Water Golem",
+      "item_group.weird__golem.golem": "Golem"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModFluids.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModFluidTypes.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModVillagerProfessions.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModTrades.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModBlocks.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModItems.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModEntities.java",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModEntityRenderers.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/weirdgolem/WeirdGolemMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/weirdgolem/init/WeirdGolemModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "weird__golem",
+    "modName": "weird  golem",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.weirdgolem"
+  },
+  "mcreatorVersion": 202600110319
+}
